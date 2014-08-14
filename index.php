@@ -11,7 +11,6 @@
 								<h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
 								<p><small>Por <?php the_author_posts_link() ?> em <?php the_category( ', ' ); ?> | <strong>criado em</strong> <?php the_time("F, d \d\\e Y") ?> e <strong>atualizado em</strong> <?php the_modified_date("F, d \d\\e Y"); ?> | <?php comments_popup_link('Sem Comentários', '1 Comentário', '% Comentários', 'btn btn-default btn-xs', 'Sem comentários'); ?></small></p>
 								<?php the_content(); ?>
-								<p class="text-right"><a href="<?php the_permalink() ?>" class="btn btn-success">Leia mais...</a></p>
 								<hr>
 							</div>
 							<?php $i++;?>
